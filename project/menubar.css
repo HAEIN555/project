@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul , li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.menu_wrap .dep1 {
+    font-size: 0;
+
+}
+.menu_wrap .dep1 > li {
+    display: table-cell;
+    flex-direction: row;
+    width: 100%;
+    vertical-align: top;
+    background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url(images/clouds.jpg);
+    text-align: center;
+    font-size: 26px;
+    padding: 10px 10px 10px 10px;
+}
+.menu_wrap .dep1 > li > a {
+    display: block;
+    padding: 10px 0;
+}
+.menu_wrap .dep2 {
+    display: none;
+}
+.menu_wrap .dep1 > li:hover > a {
+    background-color: beige;
+    color: darkgray;
+}
+.menu_wrap .dep1 > li:hover > .dep2 {
+    display: block;
+}
+.menu_wrap .dep2 a {
+    text-align: center;
+    display: block;
+    padding: 5px 0;
+}
+.menu_wrap .dep2 a:hover {
+    text-decoration: underline;
+}
