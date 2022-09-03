@@ -1,19 +1,17 @@
-@font-face {
-    font-family: abster;
-    src: url(font/abster-webfont.woff) format('woff');
-}
 
 *{
     margin: 0;
     padding: 0;
-   
+    
 }
-.container {
+
+.container { /*전체 컨테이너*/
     width: 100%;
-    height: 100vh; 
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/clouds.jpg);
+    height: 100%; 
+    background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url(images/clouds.jpg);
+    z-index: 55;
 }
-.container .header {
+.container .header { /*헤드 전체*/
     width: 80%;
     height: 50px;
     margin: 0 auto;
@@ -22,45 +20,49 @@
     align-items: center;
     /* border-bottom: 1px solid black; */
 }
-.container .header h1 a {
+.container .header h1 a { /*헤드바*/
     text-decoration: none;
     color: black;
     font-family: abster;
 }
-.container .nav ul li {
+.container .nav ul li {   /*헤드 네브 바*/
     display: inline-block;
     margin: 0 10px;
 
 }
-.container .nav ul li a {
+.container .nav ul li a { /*login logout버튼 */
     text-decoration: none;
     color: black;
 }
-.container .nav ul li a:hover{
+.container .nav ul li a:hover{ /*메뉴바 호버기능주면  login 회원가입 파란색으로 바뀜*/
     color: #1fdfdf;
 }
 
-.rectangle {
-    height: 480px;
-    width: 480px;
+
+
+.rectangle { /*마름모*/
+    height: 420px;
+    width: 420px;
     background-color: blueviolet;
     position: relative;
     transform: rotate(-45deg); 
-     margin-top: 70px;
-    margin-left: 500px;
-    
+   /* display: inline-block; */
+   margin-top: 100px;
+   margin-right: 150px;
+   float: right;
+   
 }
-.minibox {
-    height: 320px;
-    width: 320px;
+.minibox { /*마름모안에 작은 네모*/
+    height: 280px;
+    width:  280px;
     position: absolute;
-    left: 80px;
-    top: 80px;
+    left: 70px;
+    top: 70px;
     background-color:maroon;
 }
-.small1 {
-    width: 80px;
-    height: 80px;
+.small1 {  /*시작*/
+    width: 70px;
+    height: 70px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -71,12 +73,12 @@
     transform: rotate(-315deg);
     
 }
-.small2 {
-    width: 80px;
-    height: 80px;
+.small2 { /*해인*/
+    width: 70px;
+    height: 70px;
     position: absolute;
     left: 0;
-    top: 80px;
+    top: 70px;
     background-color: green;
     padding: 0;
     margin: 0;
@@ -85,45 +87,45 @@
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small3 {
-    width: 80px;
-    height: 80px;
+.small3 { /*승환*/
+    width: 70px;
+    height: 70px;
     position: absolute;
     left: 0;
-    top: 160px; 
+    top: 140px; 
     background-color: blue;
 }
 .small3-1 {
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small4 {
-    width: 80px;
-    height: 80px;
+.small4 { /*재연*/
+    width: 70px;
+    height: 70px;
     position: absolute;
     left: 0;
-    top: 240px;
+    top: 210px;
     background-color: red;
 }
 .small4-1 {
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small5 {
-    width: 80px;
-    height: 80px;
+.small5 { /*찬규*/
+    width: 70px;
+    height: 70px;
     position: absolute;
     left: 0;
-    top: 320px;
+    top: 280px;
     background-color:orange; 
 }
 .small5-1 {
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small6 {
-    width: 80px;
-    height: 80px;
+.small6 { /*아시아*/
+    width: 70px;
+    height: 70px;
     position: absolute;
     left: 0;
     top: 0 ;
@@ -133,11 +135,11 @@
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small7 {
-    width: 80px;
-    height: 80px;
+.small7 { /*한국*/
+    width: 70px;
+    height: 70px;
     position: absolute;
-    left: 80px;
+    left: 70px;
     top: 0 ;
     background-color:aqua; 
 }
@@ -145,11 +147,11 @@
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small8 {
-    width: 80px;
-    height: 80px;
+.small8 { /*일본*/
+    width: 70px;
+    height: 70px;
     position: absolute;
-    left: 160px;
+    left: 140px;
     top: 0 ;
     background-color :yellowgreen;
 }
@@ -157,11 +159,11 @@
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small9 {
-    width: 80px;
-    height: 80px;
+.small9 { /*중국*/
+    width: 70px;
+    height: 70px;
     position: absolute;
-    left: 240px;
+    left: 210px;
     top: 0 ;
     background-color :tomato;
 }
@@ -169,11 +171,11 @@
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small10 {
-    width: 80px;
-    height: 80px;
+.small10 { /*대만*/
+    width: 70px;
+    height: 70px;
     position: absolute;
-    left: 320px;
+    left: 280px;
     top: 0 ;
     background-color :black;
 }
@@ -181,9 +183,9 @@
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small11 {
-    width: 80px;
-    height: 80px;
+.small11 { /*유럽*/
+    width: 70px;
+    height: 70px;
     position: absolute;
     right: 0;
     top: 0 ;
@@ -193,9 +195,9 @@
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small12 {
-    width: 80px;
-    height: 80px;
+.small12 { /*아메리카*/
+    width: 70px;
+    height: 70px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -205,59 +207,59 @@
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small13 {
-    width: 80px;
-    height: 80px;
+.small13 { /*스페인*/
+    width: 70px;
+    height: 70px;
     position: absolute;
     right: 0;
-    bottom: 80px;
+    bottom: 70px;
     background-color :yellow;
 }
 .small13-1 {
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small14 {
-    width: 80px;
-    height: 80px;
+.small14 { /*독일*/
+    width: 70px;
+    height: 70px;
     position: absolute;
     right: 0;
-    bottom: 160px;
+    bottom: 140px;
     background-color :pink;
 }
 .small14-1 {
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small15 {
-    width: 80px;
-    height: 80px;
+.small15 { /*프랑스*/
+    width: 70px;
+    height: 70px;
     position: absolute;
     right: 0;
-    bottom: 240px;
+    bottom: 210px;
     background-color:violet;
 }
 .small15-1 {
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small16 {
-    width: 80px;
-    height: 80px;
+.small16 { /*영국*/
+    width: 70px;
+    height: 70px;
     position: absolute;
     right: 0;
-    bottom:320px;
+    bottom:280px;
     background-color :slategrey ; 
 }
 .small16-1 {
     margin: 22px 22px;
     transform: rotate(-315deg);
-}
-.small17 {
-    width: 80px;
-    height: 80px;
+} 
+.small17 { /*괌*/
+    width: 70px;
+    height: 70px;
     position: absolute;
-    left: 80px;
+    left: 70px;
     bottom: 0;
     background-color :peru ; 
 }
@@ -265,11 +267,11 @@
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small18 {
-    width: 80px;
-    height: 80px;
+.small18 { /*캐나다*/
+    width: 70px;
+    height: 70px;
     position: absolute;
-    left: 160px;
+    left: 140px;
     bottom: 0;
     background-color :seagreen; 
 }
@@ -277,11 +279,11 @@
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small19 {
-    width: 80px;
-    height: 80px;
+.small19 { /*엘에이*/
+    width: 70px;
+    height: 70px;
     position: absolute;
-    left: 240px;
+    left: 210px;
     bottom: 0;
     background-color :purple; 
 }
@@ -289,11 +291,11 @@
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-.small20 {
-    width: 80px;
-    height: 80px;
+.small20 { /*뉴욕크*/
+    width: 70px;
+    height: 70px;
     position: absolute;
-    left: 320px;
+    left: 280px;
     bottom: 0;
     background-color :navy; 
 }
@@ -301,5 +303,7 @@
     margin: 22px 22px;
     transform: rotate(-315deg);
 }
-
-  
+ /* .photo {
+    background: none;
+ }
+ */
