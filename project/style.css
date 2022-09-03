@@ -69,8 +69,10 @@
     background-color: yellow;
 }
 .small1-1 {
-    margin: 22px 22px;
+    font-size: 130%;
     transform: rotate(-315deg);
+    margin-top: 14px;
+    margin-left: 9px;
     
 }
 .small2 { /*해인*/
@@ -84,8 +86,10 @@
     margin: 0;
 }
 .small2-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 27px;
+    margin-left: 13px;
 }
 .small3 { /*승환*/
     width: 70px;
@@ -96,8 +100,10 @@
     background-color: blue;
 }
 .small3-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 27px;
+    margin-left: 13px;
 }
 .small4 { /*재연*/
     width: 70px;
@@ -108,9 +114,11 @@
     background-color: red;
 }
 .small4-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
-}
+    margin-top: 27px;
+    margin-left: 13px;
+} 
 .small5 { /*찬규*/
     width: 70px;
     height: 70px;
@@ -120,8 +128,10 @@
     background-color:orange; 
 }
 .small5-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 27px;
+    margin-left: 13px;
 }
 .small6 { /*아시아*/
     width: 70px;
@@ -132,8 +142,10 @@
     background-color:pink; 
 }
 .small6-1 {
-    margin: 22px 22px;
+    font-size: 125%;
     transform: rotate(-315deg);
+    margin-top: 20px;
+    margin-left: 5px;
 }
 .small7 { /*한국*/
     width: 70px;
@@ -144,8 +156,10 @@
     background-color:aqua; 
 }
 .small7-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 24px;
+    margin-left: 14px;
 }
 .small8 { /*일본*/
     width: 70px;
@@ -156,8 +170,10 @@
     background-color :yellowgreen;
 }
 .small8-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 24px;
+    margin-left: 14px;
 }
 .small9 { /*중국*/
     width: 70px;
@@ -168,8 +184,10 @@
     background-color :tomato;
 }
 .small9-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 24px;
+    margin-left: 14px;
 }
 .small10 { /*대만*/
     width: 70px;
@@ -180,8 +198,10 @@
     background-color :black;
 }
 .small10-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 24px;
+    margin-left: 14px;
 }
 .small11 { /*유럽*/
     width: 70px;
@@ -192,10 +212,12 @@
     background-color :steelblue;
 }
 .small11-1 {
-    margin: 22px 22px;
+    font-size: 130%;
     transform: rotate(-315deg);
+    margin-top: 26px;
+    margin-left: 15px;
 }
-.small12 { /*아메리카*/
+.small12 { /*미대륙*/
     width: 70px;
     height: 70px;
     position: absolute;
@@ -204,8 +226,10 @@
     background-color :palegoldenrod;
 }
 .small12-1 {
-    margin: 22px 22px;
+    font-size: 125%;
     transform: rotate(-315deg);
+    margin-top: 20px;
+    margin-left: 5px;
 }
 .small13 { /*스페인*/
     width: 70px;
@@ -216,8 +240,10 @@
     background-color :yellow;
 }
 .small13-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 20px;
+    margin-left: 3px;
 }
 .small14 { /*독일*/
     width: 70px;
@@ -228,8 +254,10 @@
     background-color :pink;
 }
 .small14-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 27px;
+    margin-left: 13px;
 }
 .small15 { /*프랑스*/
     width: 70px;
@@ -240,8 +268,10 @@
     background-color:violet;
 }
 .small15-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 20px;
+    margin-left: 3px;
 }
 .small16 { /*영국*/
     width: 70px;
@@ -252,8 +282,10 @@
     background-color :slategrey ; 
 }
 .small16-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 27px;
+    margin-left: 12px;
 } 
 .small17 { /*괌*/
     width: 70px;
@@ -264,8 +296,10 @@
     background-color :peru ; 
 }
 .small17-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 27px;
+    margin-left: 22px;
 }
 .small18 { /*캐나다*/
     width: 70px;
@@ -276,8 +310,10 @@
     background-color :seagreen; 
 }
 .small18-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 20px;
+    margin-left: 3px;
 }
 .small19 { /*엘에이*/
     width: 70px;
@@ -288,8 +324,10 @@
     background-color :purple; 
 }
 .small19-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 25px;
+    margin-left: 25px;
 }
 .small20 { /*뉴욕크*/
     width: 70px;
@@ -300,10 +338,14 @@
     background-color :navy; 
 }
 .small20-1 {
-    margin: 22px 22px;
+    font-size: 100%;
     transform: rotate(-315deg);
+    margin-top: 23px;
+    margin-left: 15px;
 }
- /* .photo {
-    background: none;
- }
- */
+a {
+    text-decoration-line: none;
+    font-size: 135%;
+    
+
+}
