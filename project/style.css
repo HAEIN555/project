@@ -346,6 +346,11 @@
 a {
     text-decoration-line: none;
     font-size: 135%;
-    
-
+}
+.photo {
+    position:absolute;
+     left:100px;
+      top:100px;
+       z-index:1;
+       display:none;
 }
